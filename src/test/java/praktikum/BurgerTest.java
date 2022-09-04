@@ -28,7 +28,7 @@ public class BurgerTest {
     public MockitoRule mockitoRule = MockitoJUnit.rule();
 
     @Before
-    public void prepare() throws Exception {
+    public void beforeTests() throws Exception {
         burger = new Burger();
         burger.setBuns(bun);
     }
